@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #0D0F40, #0000ff);
+    text-align:center
+}
+
+h1 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    font-style: italic;
+}
+p{
+    color: #ffffff;;
+
+}
+.links{
+    color:red;
+    text-decoration:none;
+}
+.links:visited {
+    color:brown
+}
+.links:hover{
+    color:black;
+    text-decoration:underline;
+    
+}
+.links:active{
+    color:red;
+}
+div{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    height:300px;
+
+    margin: 10px 10px 10px 10px ;
+
+    padding: 30px 30px 30px 30px;
+}

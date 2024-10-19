@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div {
+   
+    border: 1px solid black;
+    background-color: lightslategrey;
+    text-align: center;
+    width:200px;
+    height: 200px;
+}
+#box1:hover{
+    background-color: yellow;
+}
+#box2:hover{
+    background-color:red
+}
+#box3:hover{
+    background-color: blue;
+}

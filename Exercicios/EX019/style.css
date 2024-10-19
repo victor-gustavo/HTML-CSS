@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family: matemasie;
+    src: url(Matemasie-Regular.ttf);
+}
+body{
+    background: #9a91dbaf;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+h1{
+    color: #4C486D;
+}
+h1#principal{
+    font-family: matemasie;
+    font-size: 2.5em;
+    background-color:white;
+    color: #1F1E2D;
+    text-align: center;
+}
+h2{
+    color:#7c75b1
+}
+
+
