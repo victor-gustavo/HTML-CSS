@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #container{
+            background-size: 100% 100%;
+            height: 96vh;
+            background-color: blue;
+            padding: 10px;
+            position: relative;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            background-color: yellow;
+            margin: auto;
+            left: 50%;
+            top: 50%;
+
+            transform: translate( -50%, -50%);
+        }
+
+        #conteudo > p {
+            text-align: center;
+        }
+
+        footer{
+            background-color: yellow;
+            color: red
+        }
+        footer > p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <p>Olá, mundo</p>
+        </article>
+    </section>
+    <footer>
+        <p>Olá, mundo</p>
+    </footer>
+</body>
+</html>
